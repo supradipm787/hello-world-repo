@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |-
-        # Build a message1 by invoking ADVICESLIP API
+        # Build a message1 by invoking ADVICESLIP API 1
         curl -s https://api.adviceslip.com/advice > advice.json
         cat advice.json
 
